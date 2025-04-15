@@ -9,6 +9,8 @@ app.get('/api/users', (req, res) => {
   const users = [
     { id: "1", name: "Alice", email: "alice@example.com", status: "active" },
     { id: "2", name: "Bob", email: "bob@example.com", status: "inactive" },
+    { id: "3", name: "Cat", email: "cat@example.com", status: "active" },
+    { id: "4", name: "dog", email: "dog@example.com", status: "inactive" },
   ];
   res.json(users);
 });
